@@ -25,14 +25,14 @@ function ProjectDisplay() {
             <OpenInNewIcon className='openicon'/>
           </a>
         </div>
-        {project.deploymentLink !== null ? (
+        {project.deploymentLink && (
           <div>
             <span>Deployment Link: </span>
             <a href={project.deploymentLink} target='_blank' rel="noreferrer">
               <OpenInNewIcon className='openicon'/>
             </a>
           </div>
-        ): null}
+        )}
 
       </div>
     </div>
