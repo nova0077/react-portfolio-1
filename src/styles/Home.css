@@ -1,0 +1,144 @@
+.home{
+  width: 100%;
+  align-items: center;
+  color: #EEEEEE;
+}
+
+.about{
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1A1A1D;
+  color: #C5C6C7;
+}
+
+.about h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: #00ADB5;
+}
+
+.about .prompt{
+  width: 70%;
+  font-size: 35px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.myprofiles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.myprofiles svg{
+  font-size: 60px;
+  margin: 25px;
+  color: rgba(115, 61, 230, 0.811);
+}
+
+.skillsContainer{
+  width: 100%;
+  min-height: calc(100vh - 190px);
+}
+.skillsContainer .heading{
+  font-size: 60px;
+  color: #00ADB5;
+}
+.skills {
+  /* font-size: 25px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills h1{
+  color: #B82601;
+  font-size: 45px;
+  margin: 50px 0 20px 0;
+}
+
+.skills h2{
+  font-size: 30px;
+  margin : 15px auto;
+  color: #4bcaede4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 5fr 5fr 1fr;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+.skills .list{
+  list-style: none;
+  width: 100%;
+  display:block;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .list .item{
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.list span{
+  font-size: 20px;
+  line-height: 30px;
+  color: #c372e1;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    font-size: 22px; /* Adjusted for mobile devices */
+    width: 80%; /* Adjusted for mobile devices */
+  }
+
+  .myprofiles svg{
+    font-size: 40px;
+    margin: 15px;
+    color: rgba(115, 61, 230, 0.811);
+  }
+  .skills {
+    text-align: center;
+  }
+
+  .skills h1 {
+    font-size: 40px; /* Adjusted for mobile devices */
+    margin: 20px 0 10px 0; /* Adjusted for mobile devices */
+  }
+
+  .skills h2 {
+    font-size: 24px; /* Adjusted for mobile devices */
+    margin: 0;
+    margin-top: 10px; /* Adjusted for mobile devices */
+  }
+
+  .skills .list {
+    width: 90%; /* Adjusted for mobile devices */
+  }
+
+  .skills .list .item {
+    margin: 20px; /* Adjusted for mobile devices */
+  }
+
+  .list span {
+    font-size: 20px; /* Adjusted for mobile devices */
+  }
+}
