@@ -6,7 +6,7 @@
 
 .about{
   width: 100%;
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin: 5vh;
 }
 
 .myprofiles svg{
