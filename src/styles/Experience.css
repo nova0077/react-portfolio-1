@@ -6,7 +6,15 @@
   justify-content: center;
 }
 
+.vertical-timeline-element-title{
+  color: rgba(231, 54, 54);
+}
+
+.vertical-timeline-element-subtitle{
+  color: rgb(160, 93, 208);
+}
+
 .date{
-  color: #EEEEEE;
+  color: gray;
 }
 

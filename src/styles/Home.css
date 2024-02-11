@@ -1,10 +1,14 @@
-.home{
+.home {
   width: 100%;
   align-items: center;
   color: #EEEEEE;
 }
 
-.about{
+.home {
+  background-image: linear-gradient(to top, indigo, white);
+}
+
+.about {
   width: 100%;
   min-height: calc(100vh - 100px);
   display: flex;
@@ -12,45 +16,46 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to top, indigo, white);
-  color: white;
+  color: rgb(83, 105, 93);
 }
 
-.about h2{
-  font-family: 'Montserrat', sans-serif;
+.about h2 {
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 50px;
   color: rgba(231, 54, 54);
 }
 
-.about .prompt{
+.about .prompt {
   width: 70%;
   font-size: 30px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-.myprofiles{
+.myprofiles {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5vh;
 }
 
-.myprofiles svg{
+.myprofiles svg {
   font-size: 60px;
   margin: 25px;
-  color: rgba(231, 54, 54);
+  color: rgb(76, 93, 220);
 }
 
-.skillsContainer{
-  margin-top: 20vw;
+.skillsContainer {
+  margin-top: 16vw;
   padding: auto;
   width: 100%;
   min-height: calc(100vh - 190px);
 }
-.skillsContainer .heading{
+
+.skillsContainer .heading {
   font-size: 50px;
-  color: rgba(231, 54, 54);
+  color: rgb(190, 243, 83);
 }
+
 .skills {
   /* font-size: 25px; */
   display: flex;
@@ -60,85 +65,97 @@
   text-align: center;
 }
 
-#skill1{
+#skill1 {
   margin-bottom: 7vw;
 }
-#skill1 td{
+
+#skill1 td {
   width: 15vw;
 }
 
-#skill2 td{
+#skill2 td {
   width: 20vw;
   padding: 10px;
 }
 
-.skills h1{
-  color: #B82601;
+.skills h1 {
+  color: #41e9e9;
   font-size: 35px;
   margin: 50px 0 20px 0;
 }
 
-.skills td{
+.skills td {
   font-size: 20px;
-  color: gray;
+  color: rgb(245, 245, 246);
 }
 
-.skills th{
+.skills th {
   font-size: 24px;
+  color: rgb(190, 243, 83);
 }
 
-.skills h2{
+.skills h2 {
   font-size: 30px;
-  margin : 15px auto;
+  margin: 15px auto;
   color: #4bcaede4;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.skills span{
+.skills span {
   width: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .about h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .about .prompt {
-    font-size: 22px; /* Adjusted for mobile devices */
-    width: 80%; /* Adjusted for mobile devices */
+    font-size: 20px;
+    /* Adjusted for mobile devices */
+    width: 80%;
+    /* Adjusted for mobile devices */
   }
 
-  .myprofiles svg{
+  .myprofiles svg {
     font-size: 40px;
     margin: 15px;
     color: rgba(115, 61, 230, 0.811);
+  }
+
+  .skillsContainer{
+    margin-top: 20px;
+  }
+  .skillsContainer .heading {
+    font-size: 30px;
+    
   }
   .skills {
     text-align: center;
   }
 
   .skills h1 {
-    font-size: 40px; /* Adjusted for mobile devices */
-    margin: 20px 0 10px 0; /* Adjusted for mobile devices */
+    font-size: 20px;
+    /* Adjusted for mobile devices */
+    margin: 20px 0 10px 0;
+    /* Adjusted for mobile devices */
   }
 
-  .skills h2 {
-    font-size: 24px; /* Adjusted for mobile devices */
-    margin: 0;
-    margin-top: 10px; /* Adjusted for mobile devices */
+  .skills th{
+    font-size: 16px;
+    width: 85%;
+    /* Adjusted for mobile devices */
   }
-
-  .skills .list {
-    width: 90%; /* Adjusted for mobile devices */
-  }
-
-  .skills .list .item {
-    margin: 20px; /* Adjusted for mobile devices */
+  .skills td{
+    font-size: 16px;
+    width: 85%;
+    /* Adjusted for mobile devices */
   }
 
   .list span {
-    font-size: 20px; /* Adjusted for mobile devices */
+    font-size: 16px;
+    /* Adjusted for mobile devices */
   }
 }

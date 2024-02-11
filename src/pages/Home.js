@@ -93,7 +93,7 @@ function Home() {
               </tr>
               <tr>
                 <td>
-                  <span>React.js, Redux, HTML, CSS, Bootstrap, MaterialUI, Tailwind CSS</span>
+                  <span>React.js, Redux, HTML, CSS, Bootstrap, MaterialUI, Tailwind</span>
                 </td>
                 <td>
                   <span>

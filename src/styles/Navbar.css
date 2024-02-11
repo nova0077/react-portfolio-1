@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  height: 80px;
+  height: 70px;
   background: white;
 }
 
@@ -10,11 +10,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: indigo;
 }
 
 .navbar a {
-  color: indigo;
+  color: rgba(115, 61, 230, 0.811);
   text-decoration: none;
   margin: 40px;
   font-size: 30px;
@@ -53,13 +52,14 @@
 #open a {
   width: 100%;
   text-align: center;
-  margin: 15px;
-  font-size: 25px;
+  margin: 8px;
+  font-size: 20px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .navbar a {
     width: 70px;
+    font-size: 24px;
   }
 }
 
