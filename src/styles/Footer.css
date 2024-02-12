@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.footer p{
+.footer p {
   color: red;
   display: flex;
   justify-content: center;
@@ -28,8 +28,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .footer svg{
-    margin: 15px;
-    font-size: 40px;
+  .footer {
+    height: 100px;
+  }
+
+  .footer svg {
+    margin: 10px;
+    font-size: 30px;
   }
 }

@@ -45,7 +45,8 @@
 }
 
 .skillsContainer {
-  margin-top: 16vw;
+  margin-top: 10vw;
+  margin-bottom: 8vw;
   padding: auto;
   width: 100%;
   min-height: calc(100vh - 190px);
@@ -125,13 +126,15 @@
     color: rgba(115, 61, 230, 0.811);
   }
 
-  .skillsContainer{
+  .skillsContainer {
     margin-top: 20px;
   }
+
   .skillsContainer .heading {
     font-size: 30px;
-    
+
   }
+
   .skills {
     text-align: center;
   }
@@ -143,12 +146,13 @@
     /* Adjusted for mobile devices */
   }
 
-  .skills th{
+  .skills th {
     font-size: 16px;
     width: 85%;
     /* Adjusted for mobile devices */
   }
-  .skills td{
+
+  .skills td {
     font-size: 16px;
     width: 85%;
     /* Adjusted for mobile devices */
