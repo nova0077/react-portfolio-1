@@ -36,7 +36,7 @@ export const ProjectList = [
     skills: "Advanced Data Structures, OOP, C++, Clean Code.",
     repoLink: "https://github.com/nova0077/search-engine-using-Trie",
     deploymentLink: null,
-    description: "A search engine which helps to find contact details (i.e., first name, last namem, phone no.) of person by searching its prefix in optimal time using advanced DSA concepts."
+    description: "A search engine which helps to find contact details (i.e., first name, last name, phone no.) of person by searching its prefix in optimal time using advanced DSA concepts."
   },
   {
     name: "Greedy Huffman Encoder",
