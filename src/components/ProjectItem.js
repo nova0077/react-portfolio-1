@@ -5,8 +5,8 @@ function ProjectItem({image, name, id}){
   const navigate = useNavigate();
 
   return (
-    <div 
-      className="projectItem" 
+    <div
+      className="projectItem"
       onClick={()=>{
         navigate("/project/" + id)
       }}

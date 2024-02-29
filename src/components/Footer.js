@@ -21,7 +21,6 @@ function Footer(){
         <a href='https://www.linkedin.com/in/praveennooka/' target='_blank' rel="noreferrer">
           <LinkedInIcon />
         </a>
-        
         <p> &copy; 2023 praveennooka</p>
       </div>
     </div>

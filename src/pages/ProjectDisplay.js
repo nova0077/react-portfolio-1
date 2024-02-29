@@ -38,4 +38,4 @@ function ProjectDisplay() {
     </div>
   );
 }
-export default ProjectDisplay; 
+export default ProjectDisplay;
